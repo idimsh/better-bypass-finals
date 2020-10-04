@@ -3,7 +3,6 @@ Bypass Finals
 
 [![Downloads this Month](https://img.shields.io/packagist/dm/idimsh/better-bypass-finals.svg)](https://packagist.org/packages/idimsh/better-bypass-finals)
 [![Build Status](https://travis-ci.org/idimsh/better-bypass-finals.svg?branch=master)](https://travis-ci.org/idimsh/better-bypass-finals)
-[![Latest Stable Version](https://poser.pugx.org/idimsh/better-bypass-finals/v/stable)](https://github.com/idimsh/better-bypass-finals/releases)
 [![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/idimsh/better-bypass-finals/blob/master/license.md)
 
 
