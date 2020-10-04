@@ -1,0 +1,49 @@
+{
+    "name": "idimsh/better-bypass-finals",
+    "description": "Removes final keyword from source code on-the-fly and allows mocking of final methods and classes",
+    "keywords": [
+        "testing",
+        "unit",
+        "phpunit",
+        "mocking",
+        "finals"
+    ],
+    "license": [
+        "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "David Grudl",
+            "homepage": "https://davidgrudl.com"
+        },
+        {
+            "name": "Abdulrahman Dimashki",
+            "email": "idimsh@gmail.com",
+            "homepage": "https://github.com/idimsh",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "idimsh\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "idimsh\\BypassFinalsTests\\": "tests\\BypassFinalsTests"
+        }
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse --level 5 src",
+        "test": "phpunit --testsuite unit-tests"
+    }
+}
